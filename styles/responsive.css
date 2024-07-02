@@ -18,37 +18,42 @@
     .mobile-nav {
         display: none;
     }
-
+    
     .desktop-nav {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        font-size: 12px;
+        font-size: 14px;
     }
+
+    .desktop-nav:hover {
+        box-shadow: 0px 5px 10px -5px gray;
+    }
+
     .desktop-nav-logo-and-menu {
         display: flex;
-        gap: 20px;
+        gap: 25px;
     }
 
     .desktop-nav ul {
         display: flex;
-        gap: 16px;
+        gap: 25px;
     }
 
     .desktop-nav li {
         display: flex;
         align-items: center;
-        gap: 8px;
+        gap: 10px;
     }
-
     .desktop-mav-buttons {
         display: flex;
         align-items: center;
     }
 
     .button-sesion {
-        background-color: var(--background-color);
+        background-color: var(--background-main-color);
         color: black;
+        padding: 0 20px;
         border: none;
         font-size: 16px;
     }
@@ -76,23 +81,27 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        font-size: 12px;
+        font-size: 14px;
+    }
+
+    .desktop-nav:hover {
+        box-shadow: 0px 5px 10px -5px gray;
     }
 
     .desktop-nav-logo-and-menu {
         display: flex;
-        gap: 20px;
+        gap: 25px;
     }
 
     .desktop-nav ul {
         display: flex;
-        gap: 16px;
+        gap: 25px;
     }
 
     .desktop-nav li {
         display: flex;
         align-items: center;
-        gap: 8px;
+        gap: 10px;
     }
     .desktop-mav-buttons {
         display: flex;
@@ -102,6 +111,7 @@
     .button-sesion {
         background-color: var(--background-main-color);
         color: black;
+        padding: 0 20px;
         border: none;
         font-size: 16px;
     }
