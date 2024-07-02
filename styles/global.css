@@ -56,7 +56,18 @@ body {
 	background-color: var(--bg-color);
 }
 
+.mobile-nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 8px 0;
+}
 .container {
 	width: var(--container-width);
 	margin: 0 auto;
+}
+
+.desktop-nav {
+	display: none;
+}
 }

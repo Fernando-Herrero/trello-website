@@ -15,6 +15,14 @@
         --bg-color: beige;
         --container-width: 75%;
     }
+
+    .mobile-nav {
+        display: none;
+    }
+
+    .desktop-nav {
+        display: flex;
+    }
 }
 
 /* Media query para dispositivos de escritorio XXL (mayores a 1440px) */
@@ -22,5 +30,13 @@
 	:root {
         --bg-color: aquamarine;
         --container-width: 75%;
+    }
+
+    .mobile-nav {
+        display: none;
+    }
+    
+    .desktop-nav {
+        display: flex;
     }
 }
