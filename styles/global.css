@@ -40,14 +40,14 @@ a {
 
 /* A partir de aquí introduce tus estilos */
 :root {
-    --accent-bg-color: #f4ede4;
-	--title-color: #000;
-	--contrast-color: #FFF;
-    --text-color: #1d1d1d;
-    --text-light-color: #696969;
-    --text-secondary-color: #1264a3;
-    --primary-color: #400d40;
-    --primary-color-dark: #4a154b;
+    --accent-bg-color: ##FDFFFF;
+	--title-color: #FFFFFF;
+	--secondary-color: #CE4DB2;
+    --text-color: #091E42;
+    --text-secondary-color: #0747A6;
+    --text-ancors-color: #1264a3;
+    --tertiary-color: #00AADF;
+    --footer-color-dark: #172B4D;
 
 	--container-width: 95%;
 }
