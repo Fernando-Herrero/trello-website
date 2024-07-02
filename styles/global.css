@@ -40,20 +40,20 @@ a {
 
 /* A partir de aquí introduce tus estilos */
 :root {
-    --accent-bg-color: ##FDFFFF;
+    --background-main-color: ##FDFFFF;
 	--title-color: #FFFFFF;
 	--secondary-color: #CE4DB2;
     --text-color: #091E42;
     --text-secondary-color: #0747A6;
     --text-ancors-color: #1264a3;
-    --tertiary-color: #00AADF;
+    --tertiary-color: #0065ff;
     --footer-color-dark: #172B4D;
 
 	--container-width: 95%;
 }
 
 body {
-	background-color: var(--bg-color);
+	background-color: var(--background-color);
 }
 
 .mobile-nav {
