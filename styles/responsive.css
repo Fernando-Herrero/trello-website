@@ -4,8 +4,18 @@
 /* Media query para dispositivos tablet (mayores a 480px y hasta 1023px) */
 @media (min-width: 481px) {
     :root {
-        --bg-color: lightcoral;
         --container-width: 85%;
+    }
+
+    .header-form{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    header input {
+        display: inherit;
+        padding: 12px 200px 12px 12px;
     }
 }
 
@@ -64,6 +74,42 @@
         padding: 20px;
         font-size: 16px;
         border: none;
+    }
+
+
+    .header {
+        padding-bottom: 100px;
+    }
+
+    .content-header {
+        flex-direction: row;
+    }
+
+    .primary-content-header {
+        align-items: flex-start;
+        flex: 1;
+    }
+
+    .primary-content-header h1, p {
+        text-align: left;
+    }
+
+    .img-header {
+        flex: 1;
+    }
+
+    .header-form {
+        flex-direction: column;
+    }
+
+    .background-img-wave img {
+        width: 100%;
+        height: 100px;
+    }
+    
+    .background-img-wave {
+        position: relative;
+        transform: translateY(-99px);
     }
 }
 
