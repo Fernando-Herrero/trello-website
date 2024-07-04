@@ -15,6 +15,13 @@
 			href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css"
 		/>
 
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+			rel="stylesheet"
+		/>
+
 		<link rel="stylesheet" href="/styles/index.css" />
 
 		<title>
@@ -95,16 +102,29 @@
 		</nav>
 
 		<header class="header">
+			<section class="message-info">
+				<p class="message-header container">
+					Accelerate your teams' work with Atlassian Intelligence (AI) features
+					🤖 now available for all Premium and Enterprise!
+					<a class="ancor-message-header" href="#">Learn more</a>
+				</p>
+			</section>
 			<div class="content-header container">
 				<div class="primary-content-header">
 					<h1>
 						Trello unifica tus tareas, compañeros de equipo y herramientas
 					</h1>
 					<p>Mantenlo todo en el mismo lugar, aunque tu equipo no lo esté.</p>
-					<form action="#">
-						<label class="header-form">
-							<input type="email" name="email" placeholder="Correo electrónico">
-							<button class="blue-button">Registrate,¡es gratis!</button>
+					<form class="header-form" action="#">
+						<label class="label-header">
+							<input
+								type="email"
+								name="email"
+								placeholder="Correo electrónico"
+							/>
+							<div class="blue-button-container">
+								<button class="blue-button">Registrate,¡es gratis!</button>
+							</div>
 						</label>
 					</form>
 
@@ -125,12 +145,6 @@
 				</div>
 			</div>
 		</header>
-		<section class="background-img-wave">
-			<img
-				src="/media/images/white-wave-background-header.svg"
-				alt="imagen de una ola que actua de background"
-			/>
-		</section>
 		<main>
 			<p>
 				Lorem fistrum ese que llega no te digo trigo por no llamarte Rodrigor

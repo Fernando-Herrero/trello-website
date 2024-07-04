@@ -10,12 +10,26 @@
     .header-form{
         display: flex;
         justify-content: center;
+    }
+
+    .label-header {
+        display: flex;
         gap: 20px;
+    }
+
+    .label-header input {
+        width: 376px;
+        max-width: 300px;
     }
 
     header input {
         display: inherit;
         padding: 12px 200px 12px 12px;
+    }
+
+    .blue-button {
+        flex: 0;
+        padding: 12px 16px;
     }
 }
 
@@ -55,9 +69,8 @@
         align-items: center;
         gap: 10px;
     }
-    .desktop-mav-buttons {
-        display: flex;
-        align-items: center;
+    .desktop-nav-buttons {
+        align-self: stretch;
     }
 
     .button-sesion {
@@ -71,6 +84,7 @@
     .button-get {
         background-color: var(--tertiary-color);
         color: white;
+        height: 100%;
         padding: 20px;
         font-size: 16px;
         border: none;
