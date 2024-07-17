@@ -247,4 +247,8 @@
 		font-size: 16px;
 		border: none;
 	}
+
+    .neuro-productivity-text {
+		max-width: 600px;
+	}
 }
