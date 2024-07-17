@@ -6,8 +6,9 @@
 
 html,
 body {
-	font-family: "Noto Sans", sans-serif, Helvetica, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-		Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-family: "Noto Sans", sans-serif, Helvetica, -apple-system,
+		BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif,
+		"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 h1,
@@ -40,7 +41,7 @@ a {
 
 /* A partir de aquí introduce tus estilos */
 :root {
-	--background-main-color: ##fdffff;
+	--background-main-color: #fdffff;
 	--title-color: #ffffff;
 	--text-color: #091e42;
 	--hover-blue-color: #0747a6;
@@ -53,6 +54,10 @@ a {
 
 body {
 	background-color: var(--background-color);
+}
+
+h1 {
+	font-size: 32px;
 }
 
 .mobile-nav {
@@ -70,7 +75,10 @@ body {
 }
 
 .header {
-	background: url(/media/images/white-wave-mobile.svg) center bottom -0.5px / 100% 24% no-repeat scroll padding-box border-box, linear-gradient(60deg, rgb(82, 67, 170), rgb(237, 80, 180)) 0% 0% / auto no-repeat scroll padding-box border-box rgb(82, 67, 170);
+	background: url(/media/images/white-wave-mobile.svg) center bottom -0.5px / 100%
+			24% no-repeat scroll padding-box border-box,
+		linear-gradient(60deg, rgb(82, 67, 170), rgb(237, 80, 180)) 0% 0% / auto
+			no-repeat scroll padding-box border-box rgb(82, 67, 170);
 	background-blend-mode: normal, normal;
 	color: rgb(255, 255, 255);
 }
@@ -83,7 +91,7 @@ a {
 }
 
 .message-info {
-	background-color: #DEEBFF;
+	background-color: #deebff;
 	padding: 16px;
 }
 
@@ -93,7 +101,7 @@ a {
 }
 
 .ancor-message-header {
-	color: #2C6BD5;
+	color: #2c6bd5;
 }
 
 .content-header {
@@ -110,9 +118,17 @@ a {
 	gap: 15px;
 }
 
-.primary-content-header h1,
+header h1,
 p {
 	text-align: center;
+}
+
+header h1 {
+	line-height: 1.25;
+}
+
+header p {
+	line-height: 1.5;
 }
 
 .header-ancor-video {
@@ -170,6 +186,83 @@ header input {
 	transform: translateY(-280px);
 }
 
+main p,
+h2,
+h3 {
+	color: var(--text-color);
+	text-align: left;
+}
+
+main h2, h3 {
+	line-height: 1.25;
+}
+
 main p {
-	color: black;
+	line-height: 1.5;
+}
+
+.neuro-productivity {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	background: linear-gradient(0deg, rgb(230, 252, 255), rgb(255, 255, 255)) 0% 0% / auto repeat scroll padding-box border-box rgb(178, 212, 255);
+        background-blend-mode: normal;
+        color: rgb(9, 30, 66);
+	padding-bottom: 80px;
+}
+
+.neuro-productivity-container {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.neuro-productivity-text {
+	display: flex;
+	justify-content: left;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.neuro-productivity-text p:nth-child(1) {
+	text-transform: uppercase;
+}
+
+.neuro-productivity-text a {
+	color: var(--text-ancors-color);
+	text-decoration: underline;
+}
+
+.neuro-productivity-img-board {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.neuro-productivity-picture img {
+	width: 100%;
+}
+
+.neuro-productivity-board {
+	display: flex;
+	background-color: var(--background-main-color);
+}
+
+.sideboard {
+	width: 40px;
+	height: 240px;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+	background-color: #00B7D3;
+}
+
+.board-text {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	padding: 30px 10px;
+}
+
+.show-on-desktop {
+	display: none;
 }
