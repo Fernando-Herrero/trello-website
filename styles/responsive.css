@@ -50,15 +50,6 @@
 	.sideboard {
 		width: 20px;
 	}
-
-    .card-show-on-tablet {
-        display: inherit;
-    }
-
-    .cards {
-        display: flex;
-        gap: 20px;
-    }
 }
 
 /* Media query para dispositivos de escritorio (mayores a 1024px y hasta 1439px) */
@@ -88,18 +79,18 @@
 
 	.desktop-nav-logo-and-menu {
 		display: flex;
-		gap: 25px;
+		gap: 24px;
 	}
 
 	.desktop-nav ul {
 		display: flex;
-		gap: 25px;
+		gap: 24px;
 	}
 
 	.desktop-nav li {
 		display: flex;
 		align-items: center;
-		gap: 10px;
+		gap: 12px;
 	}
 	.desktop-nav-buttons {
 		align-self: stretch;
@@ -155,7 +146,7 @@
 	}
 
 	.blue-button-container {
-		max-width: 185px;
+		max-width: 188px;
 	}
 
 	.background-img-wave img {
@@ -169,7 +160,7 @@
 	}
 
 	.neuro-productivity-text {
-		max-width: 450px;
+		max-width: 448px;
 	}
 
 	.neuro-productivity-img-board {
@@ -218,18 +209,18 @@
 
 	.desktop-nav-logo-and-menu {
 		display: flex;
-		gap: 25px;
+		gap: 24px;
 	}
 
 	.desktop-nav ul {
 		display: flex;
-		gap: 25px;
+		gap: 24px;
 	}
 
 	.desktop-nav li {
 		display: flex;
 		align-items: center;
-		gap: 10px;
+		gap: 12px;
 	}
 	.desktop-mav-buttons {
 		display: flex;
