@@ -49,8 +49,16 @@
 
 	.sideboard {
 		width: 20px;
-		height: 180px;
 	}
+
+    .card-show-on-tablet {
+        display: inherit;
+    }
+
+    .cards {
+        display: flex;
+        gap: 20px;
+    }
 }
 
 /* Media query para dispositivos de escritorio (mayores a 1024px y hasta 1439px) */
@@ -180,10 +188,6 @@
 		flex: 1;
 	}
 
-	.sideboard {
-		height: 250px;
-	}
-
 	.show-on-desktop {
 		display: flex;
 		flex-direction: column;
@@ -248,7 +252,7 @@
 		border: none;
 	}
 
-    .neuro-productivity-text {
+	.neuro-productivity-text {
 		max-width: 600px;
 	}
 }
