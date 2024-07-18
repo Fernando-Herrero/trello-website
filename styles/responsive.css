@@ -184,6 +184,10 @@
 		flex-direction: column;
 		gap: 20px;
 	}
+
+    .workflow-p-button {
+        flex-direction: row;
+    }
 }
 
 /* Media query para dispositivos de escritorio XXL (mayores a 1440px) */
