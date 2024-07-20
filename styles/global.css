@@ -352,9 +352,10 @@ main p {
 	background-blend-mode: normal;
 	color: rgb(255, 255, 255);
 }
-.ways-text-container {
+.ways-of-work-title {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 	gap: 24px;
 }
 .ways-text-container h2,
@@ -370,13 +371,29 @@ p {
 	border-radius: 4px;
 	padding: 24px;
 	background-color: var(--background-main-color);
+	box-shadow: rgba(9, 30, 66, 0.15) 0px 0.5rem 1rem 0px;
+}
+
+.negative-margin {
+	margin-bottom: -88px;
+}
+
+.ways-of-work-img img {
+	width: 100%;
+}
+
+.ways-of-work-text {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 20px;
 }
 
 .ways-to-grow {
 	display: flex;
 	flex-direction: column;
 	gap: 24px;
-	padding-top: 32px;
+	padding-top: 120px;
 }
 
 .colour-grow-cards {

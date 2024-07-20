@@ -189,7 +189,20 @@
 
 	.workflow-p-button {
 		flex-direction: row;
-	}
+    }
+
+    .ways-of-work-card {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .ways-of-work-img {
+        width: 55%;
+    }
+
+    .ways-of-work-text {
+        width: 45%;
+    }
 }
 
 /* Media query para dispositivos de escritorio XXL (mayores a 1440px) */
