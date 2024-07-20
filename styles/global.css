@@ -331,6 +331,7 @@ main p {
 .workflow-p-button {
 	display: flex;
 	flex-direction: column;
+	align-items: flex-start;
 	gap: 20px;
 }
 
@@ -394,8 +395,90 @@ p {
 	flex-direction: column;
 	gap: 24px;
 	padding-top: 120px;
+	padding-bottom: 32px;
 }
 
-.colour-grow-cards {
+.ways-to-grow-title {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.ways-to-grow-boards {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+
+.ways-to-grow-board {
+	display: flex;
+	flex-direction: column;
 	background-color: rgb(250, 251, 252);
+	gap: 20px;
+	padding: 24px;
+	max-width: 330px;
+}
+
+.ways-to-grow-board-img {
+	flex: 1;
+	width: 55%;
+}
+
+.ways-to-grow-board-text {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	gap: 16px;
+}
+
+.testimony {
+	display: flex;
+	flex-direction: column;
+	background: linear-gradient(0deg, rgb(230, 252, 255), rgb(255, 255, 255)) 0%
+		0% / auto no-repeat scroll padding-box border-box transparent;
+	background-blend-mode: normal;
+}
+
+.director-testimony {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 16px;
+	padding: 24px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	background-image: url(/media/images/comillas-testimony-div.svg);
+	background-repeat: no-repeat;
+	box-shadow: rgba(9, 30, 66, 0.15) 0px 0.5rem 1rem 0px;
+}
+
+.border-top {
+	border-top: 1px solid var(--text-color);
+	padding-top: 16px;
+	width: 150px;
+}
+
+.img-ancor-testimony {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 16px;
+}
+
+.research {
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	background: linear-gradient(60deg, rgb(101, 84, 192), rgb(249, 156, 219)) 0%
+		0% / auto repeat scroll padding-box border-box rgb(101, 84, 192);
+	background-blend-mode: normal;
+	color: rgb(255, 255, 255);
+	box-shadow: rgba(9, 30, 66, 0.15) 0px 0.5rem 1rem 0px;
+}
+
+.research-text {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 24px;
+	padding: 24px;
 }
