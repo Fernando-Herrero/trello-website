@@ -11,10 +11,6 @@
         flex-wrap: wrap;
     }
 
-    .margin-left {
-        margin-left: 25%;
-    }
-
     .testimony-container {
         min-width: 450px;
         min-height: 600px;
@@ -202,9 +198,13 @@
 	}
 
 	.boards-container {
-		flex-direction: column;
 		flex: 1;
 	}
+
+    #change-direction {
+        display: flex;
+        flex-direction: column;
+    }
 
 	.neuro-productivity-board {
 		min-width: 290px;
