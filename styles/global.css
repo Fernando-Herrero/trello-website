@@ -215,18 +215,18 @@ header input {
 	gap: 20px;
 }
 
-.title-left {
+.title-primary {
 	display: flex;
 	justify-content: left;
 	flex-direction: column;
 	gap: 20px;
 }
 
-.title-left h3 {
+.title-primary h3 {
 	color: var(--text-color);
 }
 
-.title-left p {
+.title-primary p {
 	text-align: left;
 	color: var(--text-color);
 }
@@ -282,14 +282,14 @@ header input {
 	background-color: #00b7d3;
 }
 
-.card-text-left {
+.card-text-primary {
 	display: flex;
 	flex-direction: column;
 	gap: 16px;
 	padding: 24px;
 }
 
-.card-text-left p {
+.card-text-primary p {
 	text-align: left;
 	font-size: 16px;
 	color: var(--text-color);
