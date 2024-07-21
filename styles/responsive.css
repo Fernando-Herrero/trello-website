@@ -243,10 +243,6 @@
         flex-wrap: nowrap;
     }
 
-    .margin-left {
-        margin-left: 0;
-    }
-
     .testimony-container {
         flex-direction: row;
     }
@@ -327,10 +323,6 @@
 		padding: 20px;
 		font-size: 16px;
 		border: none;
-	}
-
-	.neuro-productivity-text {
-		max-width: 600px;
 	}
 
     .ways-to-grow-board {
