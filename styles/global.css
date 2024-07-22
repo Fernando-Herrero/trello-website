@@ -672,3 +672,27 @@ header input {
 .hide-email-on-mobile {
 	display: none;
 }
+
+footer {
+	display: flex;
+	flex-direction: column;
+	padding-top: 32px;
+	padding-bottom: 32px;
+	background: var(--footer-color-dark);
+}
+
+.first-footer-container {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+
+.footer-logo-ancor {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer-logo-ancor img {
+	width: 130px;
+}
