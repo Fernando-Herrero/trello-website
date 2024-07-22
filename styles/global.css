@@ -552,8 +552,15 @@ header input {
 	flex-direction: column;
 	justify-content: flex-start;
 	gap: 16px;
+	width: 100%;
 	border: 1px solid gray;
 	background-color: var(--background-main-color);
+}
+
+.price-text {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
 }
 
 .price {
@@ -576,6 +583,11 @@ header input {
 	width: 100%;
 }
 
+.price-button-ancor {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
 
 #slider {
     width: 100%;

@@ -265,6 +265,21 @@
         min-width: 868px;
         min-height: 400px;
     }
+
+    .prices-boards {
+        flex-direction: row;
+        gap: 0;
+    }
+
+    .price-board {
+        min-height: 600px;
+    }
+
+    .price-board-content {
+        display: flex;
+        justify-content: space-between;
+        flex: 1;
+    }
 }
 
 /* Media query para dispositivos de escritorio XXL (mayores a 1440px) */
