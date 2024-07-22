@@ -66,6 +66,18 @@
         min-width: 652px;
         min-height: 500px;
     }
+
+    .logos-end-mobile {
+        display: none;
+    }
+
+    .logos-end-laptop {
+        display: inherit;
+    }
+
+    .logos-end-laptop img {
+        width: 100%;
+    }
 }
 
 /* Media query para dispositivos de escritorio (mayores a 1024px y hasta 1439px) */
@@ -279,6 +291,10 @@
         display: flex;
         justify-content: space-between;
         flex: 1;
+    }
+
+    .title-secondary p {
+        text-align: center;
     }
 }
 
