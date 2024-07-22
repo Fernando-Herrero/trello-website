@@ -646,8 +646,29 @@ header input {
 .start-trello {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
+	padding-top: 32px;
+	padding-bottom: 32px;
 	background: linear-gradient(60deg, rgb(82, 67, 170), rgb(237, 80, 180)) 0% 0% /
 		auto repeat scroll padding-box border-box rgb(82, 67, 170);
 	background-blend-mode: normal;
 	color: rgb(255, 255, 255);
+}
+
+.start-trello-container {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	gap: 12px;
+}
+
+.start-trello-form-button {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 12px;
+}
+
+.hide-email-on-mobile {
+	display: none;
 }
