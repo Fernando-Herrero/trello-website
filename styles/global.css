@@ -696,3 +696,29 @@ footer {
 .footer-logo-ancor img {
 	width: 130px;
 }
+
+.tablist-footer {
+	display: flex;
+	flex-direction: column;
+}
+
+.tablist {
+	padding-top: 16px;
+	padding-bottom: 16px;
+	border-top: 1px solid rgb(80, 95, 121);
+}
+
+.tablist a {
+	display: flex;
+	flex-direction: column;
+	max-width: 60%;
+	gap: 12px;
+}
+
+.tablist-p-title {
+	font-size: 16px;
+}
+
+.tablist-p-text {
+	font-size: 12px;
+}
