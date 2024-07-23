@@ -684,7 +684,7 @@ footer {
 .first-footer-container {
 	display: flex;
 	flex-direction: column;
-	gap: 24px;
+	gap: 16px;
 }
 
 .footer-logo-ancor {
@@ -712,7 +712,7 @@ footer {
 	display: flex;
 	flex-direction: column;
 	max-width: 60%;
-	gap: 12px;
+	gap: 8px;
 }
 
 .tablist-p-title {
@@ -721,4 +721,41 @@ footer {
 
 .tablist-p-text {
 	font-size: 12px;
+}
+
+.second-footer-container {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	padding-top: 16px;
+	border-top: 1px solid rgb(80, 95, 121);
+}
+
+.languages {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+
+.languages select {
+	background: transparent;
+	border: none;
+	color: var(--title-color);
+}
+
+.ancors-copyright {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.ancors-copyright span {
+	color: var(--title-color);
+}
+
+.icons-apps {
+	display: flex;
+	justify-content: space-between;
+	font-size: small;
+	padding-top: 32px;
 }
