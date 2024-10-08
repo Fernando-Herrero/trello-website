@@ -8,4 +8,4 @@ La primera parte de la clase consiste en crear una arquitectura de CSS, los arch
 
 ## Parte 2
 
-Tu misión una vez que completes la segunda parte de la clase es terminar la web de trello.
+Tu misión una vez que completes la segunda parte de la clase es terminar la web de trello.# trello-website
