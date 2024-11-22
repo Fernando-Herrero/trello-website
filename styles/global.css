@@ -59,6 +59,7 @@ body {
 	color: var(--title-color);
 	text-decoration: underline;
 }
+
 h1 {
 	font-size: 32px;
 	line-height: 1.25;
@@ -217,7 +218,6 @@ header input {
 
 .title-primary {
 	display: flex;
-	justify-content: left;
 	flex-direction: column;
 	gap: 20px;
 }
